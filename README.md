@@ -1,0 +1,1 @@
+#Build a model of the Mo'orea reefs looking at the history of disturbance and recovery from 2004 to 2024. We rolled 2 six-sided dice and each "turn" represented two years on the reef (2004, 2006, 2008, etc). The sum of the dice determined the growth and mortality of corals and the change in coral cover on the reef over time. 
