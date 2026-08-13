@@ -1,14 +1,9 @@
+source("R/util.R") 
+
 set.seed(221)
 
 # STEP 1: Initialize your reef
-reef <- matrix(0, nrow = 5, ncol = 5)
-random_coral <- sample(1:25, size = 8)
-for(rc in random_coral) {
-  rc_row <- (rc - 1) %/% 5 + 1 #recall %/% is how many times that number can be divided into the other
-  rc_col <- (rc - 1) %% 5 + 1 #recall %% is the remainder
-  reef[rc_row, rc_col] <- 1 
-}
-print(reef)
+reef <- initial_reef(8)
 
 # This is what the reef looks like now:
 #      [,1] [,2] [,3] [,4] [,5]
